@@ -6,7 +6,7 @@ name: Schedule Test
 on:
   # Triggers the workflow on push or pull request events but only for the gindibay-test-release branch
   schedule:
-    - cron:  '*/6 * * * *'
+    - cron:  '0/5 * * * *'
 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
