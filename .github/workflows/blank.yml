@@ -5,8 +5,7 @@ name: Schedule Test
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the gindibay-test-release branch
-  schedule:
-    - cron:  '0/5 * * * *'
+
   workflow_dispatch:
 
 
